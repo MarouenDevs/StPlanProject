@@ -24,9 +24,9 @@
                                 <!-- Error container -->
 
                         <div id="error-container"class="mb15">
-                        {{--}}
-{{//$errors->getBags()}}
-{{--}}
+       @if($errors->any())
+       <span style="color:red;">{{$errors->first()}}</span>
+       @endif
                                 </div>
                                 <!--/ Error container -->
 

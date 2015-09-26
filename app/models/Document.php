@@ -15,7 +15,7 @@ class Document extends Eloquent{
     }
 
     public function prospect(){
-        return $this->belongsTo('Prospect')
+        return $this->belongsTo('Prospect');
     }
 
 } 
