@@ -15,6 +15,12 @@ class ProgrammeController  extends  \BaseController{
 
     }
 
+    public function index()
+    {
+
+        return View::make("programme.index");
+    }
+
 
 
 } 

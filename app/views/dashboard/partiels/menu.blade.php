@@ -1,6 +1,6 @@
  <ul class="topmenu topmenu-responsive" data-toggle="menu">
                     <li >
-                        <a href="javascript:void(0);" data-target="#dashboard" data-toggle="submenu" data-parent=".topmenu">
+                        <a href="{{URL::route('home')}}" data-target="#dashboard" data-toggle="submenu" data-parent=".topmenu">
                             <span class="figure"><i class="ico-screen"></i></span>
                             <span class="text">Tableau de bord</span>
 
@@ -17,7 +17,7 @@
                         <ul id="components" class="submenu collapse ">
                             <li class="submenu-header ellipsis">Components</li>
                             <li >
-                                <a href="component-sortable.html">
+                                <a href="{{URL::route('allProgramme')}}">
                                     <span class="text">Liste des programmes</span>
                                     <span class="number"><span class="label label-success">N</span></span>
                                 </a>

@@ -20,3 +20,5 @@ Route::get('dashboard/home',array("as"=>'home',"uses"=>"DashboardController@inde
 Route::post('users/signin',array("as"=>'signin',"uses"=>"AuthController@signin"));
 
 Route::post('users/logout',array("as"=>'logout',"uses"=>"AuthController@logout"));
+// programmes routes
+Route::get('programme/index',array("as"=>'allProgramme',"uses"=>"ProgrammeController@index"));
